@@ -19,7 +19,7 @@ function Login({ switchToSignup }) {
   };
 
   return (
-    <div className="d-flex align-items-center justify-content-center min-vh-100" style={{ background: 'linear-gradient(to right, #0d6efd, #6610f2)' }}>
+    <div className="d-flex align-items-center justify-content-center min-vh-100" style={{ background: 'linear-gradient(to right, #FC8A06, #FC8A06)' }}>
       <div className="bg-white p-4 rounded shadow w-100" style={{ maxWidth: '400px' }}>
         <h2 className="text-center mb-4">Đăng Nhập</h2>
         {error && <div className="alert alert-danger">{error}</div>}
